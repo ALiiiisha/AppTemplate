@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.mein-container {
+  width: 450px;
+  box-shadow: 0px 0px 4px 5px rgba(159, 158, 158, 0.3);
+  margin: 200px auto;
+  border: 1px solid white;
+  border-radius: 15px;
+  background-color: ghostwhite;
+  position: relative;
+}
+.header-container {
+  display: grid;
+  grid-template-columns: 1fr 40px;
+}
+button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 130px;
+  font-size: 15px;
+  border: none;
+  background-color: rgb(250, 100, 100);
+  color: white;
+  padding: 4px;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+strong {
+  width: 20px;
+  height: 20px;
+  border: 1px solid red;
+  font-size: 13px;
+  border-radius: 50%;
+
+  background-color: white;
+  color: red;
+  box-sizing: content-box;
+}
+.header-icon {
+  width: 28px;
+  height: 28px;
+  margin-top: 17px;
+  color: rgb(28, 163, 217);
+}
+.heading {
+  margin-left: 15px;
+  margin-top: 15px;
+  font-size: 28px;
+  font-weight: bold;
+}
+.container2 {
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px 15px;
+}
+.heading2 {
+  display: grid;
+  grid-template-columns: 323px 80px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.Account {
+  margin-top: 10px;
+  color: black;
+  font-weight: bold;
+}
+.view {
+  margin-top: 17px;
+  color: rgb(28, 163, 217);
+  font-weight: 600;
+}
+.checking {
+  display: grid;
+  grid-template-columns: 50px 265px 50px;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+.checking-icon {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(131, 218, 197);
+  color: white;
+  padding: 6px;
+  box-sizing: content-box;
+  border-radius: 7px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+h4 {
+  margin-top: 20px;
+  margin-left: 3px;
+}
+.price {
+  color: black;
+  margin-top: 22px;
+}
+.Add-Accounts {
+  color: rgb(28, 163, 217);
+  background-color: rgb(244, 239, 239);
+  margin-left: 272px;
+  width: 123px;
+  justify-content: center;
+  border-radius: 13px;
+  margin-bottom: 17px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+.container3 {
+  display: grid;
+  grid-template-columns: 265px 200px;
+  background-color: white;
+  margin: 15px;
+  border-radius: 7px;
+}
+.content-img {
+  width: 150px;
+  height: 200px;
+}
+.goals {
+  margin-top: 10px;
+  font-size: 28px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.one {
+  color: rgb(28, 163, 217);
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.progress {
+  color: rgb(171, 167, 167);
+  margin-left: 12px;
+  font-size: 14px;
+  line-height: 1;
+}
+.container4 {
+  background-color: white;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 7px;
+  display: grid;
+  grid-template-columns: 1fr;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.last-heading {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.LIMIT {
+  color: rgb(171, 167, 167);
+  margin-left: 12px;
+  font-size: 12px;
+}
+.setup {
+  margin-top: 35px;
+  color: rgb(28, 163, 217);
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 42px;
+}
+.container5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  border-top: 1px solid lightgray;
+  height: 70px;
+}
+.last-icons {
+  width: 30px;
+  height: 30px;
+  color: gray;
+}
+.description {
+  color: gray;
+  font-size: 12px;
+}
+.over {
+  color: rgb(28, 163, 217);
+}
+.plus {
+  font-size: 38px;
+  background-color: rgb(19, 96, 220);
+  color: white;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 80px;
+  right: 20px;
+  display: inline-block;
+}
